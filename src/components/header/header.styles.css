@@ -1,0 +1,15 @@
+.header-container {
+	display: flex;
+	background: #ffcc99;
+	align-items: center;
+	}
+
+.header-title {
+	height: 120px;
+	flex: 1;
+	font-size: 75px;
+	font-family: Helventica;
+	font-weight: bold;
+	text-align: center;
+	
+}
