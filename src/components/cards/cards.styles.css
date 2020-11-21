@@ -4,7 +4,7 @@
 	flex-direction: row;
 	flex-wrap: wrap;
 	background-color: #ffffcc;
-	height: 35vw;
+	height: 45vw;
 	align-content: center;
 	width: 100%;
 }
@@ -14,9 +14,92 @@
 	height: 15vw;
 	width: 25%;
 	text-align: center;
-	font-size: 30px;
+	font-size: 40px;
 	font-weight: bolder;
 	margin: 5px;
 	border-radius: 15px;
 	padding: 50px;
 }
+@media screen and (max-width: 499px) {
+
+	.cards {
+		height: 45vw;
+		display: inline;
+		width: 100%;
+
+
+
+	}
+	.card-item {
+		width: 100%;
+		font-size: 25px;
+		font-weight: bold;
+		height: 30vw;
+		padding: 12px;
+		margin: 3px;
+
+
+	}
+
+	
+}
+
+@media screen and (min-width: 500px) and (max-width: 799px) {
+
+	.cards {
+		height: 45vw;
+		display: inline;
+		width: 100%;
+
+
+	}
+	.card-item {
+		width: 100%;
+		font-size: 35px;
+		font-weight: bold;
+		height: 30vw;
+		padding: 15px;
+
+	}
+
+	
+}
+
+@media screen and (min-width: 800px) and (max-width: 999px){
+
+	.cards {
+		height: 70vw;
+		width: 100%;
+
+
+	}
+
+	.card-item {
+		font-size: 28px;
+		font-weight: bold;
+		padding: 30px;
+		height: 30vw;
+		
+	}
+}
+
+@media screen and (min-width: 1000px) and (max-width: 1499px) {
+	.cards {
+		height: 120vw;
+
+
+	}
+	.card-item {
+		font-size: 45px;
+		font-weight: bold;
+		padding: 30px;
+		height: 30vw;
+		width: 40%;
+		
+	}
+}
+
+
+
+
+

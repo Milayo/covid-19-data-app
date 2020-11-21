@@ -13,3 +13,27 @@
 	text-align: center;
 	
 }
+
+
+@media screen and (max-width: 499px) {
+	.header-title {
+		font-size: 35px;
+		padding-top: 5px;
+	}
+}
+
+@media screen and (min-width: 500px) and (max-width: 800px) {
+
+	.header-title {
+		font-size: 45px;
+
+	}
+
+	}
+
+@media screen and (min-width: 800px) and (max-width: 1499px) {
+	.header-title {
+		font-size: 60px;
+		padding-top: 15px;
+	}
+}
